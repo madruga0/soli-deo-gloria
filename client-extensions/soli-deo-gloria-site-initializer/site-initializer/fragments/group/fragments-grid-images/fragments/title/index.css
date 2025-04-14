@@ -1,12 +1,18 @@
 .fragment_1713 {
+	font-family: "Inter", sans-serif;
 }
 
 .title1713{
+	margin-top: 96px;
   color: #093542;
+	font-size: 72px;
+	font-weight: 600;
+	line-height: 100%;
+	letter-spacing: -2%;
 }
 
 .description1713{
-	margin-top: 25px;
+	margin: 32px 0 96px 0;
   color: #636366;
 	font-family: "Inter", sans-serif;
 	font-size: 20px;
