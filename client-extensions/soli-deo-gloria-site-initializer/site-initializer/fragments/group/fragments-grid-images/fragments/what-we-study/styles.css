@@ -13,12 +13,24 @@
     align-items: center;
 }
 
-.title {
+header .title {
     color: #093542;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 32px;
 }
 
+header .text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #8E8E93;
+}
+
+
 .first-row, .second-row {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     gap: 36px;
     justify-content: center;
@@ -37,6 +49,13 @@
 .card img {
     width: 36px;
     height: 36px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #8E8E93;
 }
 
 .card h2 {
