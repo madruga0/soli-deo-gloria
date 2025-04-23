@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    font-family: "Inter", sans-serif;
+}
+
+.page  main {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+}
+
+.title {
+    color: #093542;
+}
+
+.first-row, .second-row {
+    border: 1px solid red;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    /* flex-wrap: wrap;    */
+}
+
+
+.card {
+    width: 280px; /* ou ajuste para caber 3 por linha */
+    border: 1px solid #F5F5F5;
+    border-radius: 24px;
+    padding: 36px;
+    background-color: white;
+}
+
+.card img {
+    width: 36px;
+    height: 36px;
+}
+
+.card h2 {
+    font-size: 22px;
+    font-weight: 600;
+
+    line-height: 28px;
+    color: #093542;
+}
