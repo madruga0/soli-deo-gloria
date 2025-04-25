@@ -1,0 +1,48 @@
+.oque-fazemos {
+    background-color: transparent;
+    padding: 60px 20px;
+    font-family: "Inter", sans-serif;
+  }
+  
+`
+  
+  .oque-fazemos .texto {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .oque-fazemos .texto h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #093542;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .oque-fazemos .texto p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #8E8E93;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .oque-fazemos .imagem {
+    flex: 2;
+    min-width: 280px;
+    text-align: center;
+  }
+  
+  .oque-fazemos .imagem img {
+    width: 100%;
+    border: none;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .oque-fazemos .legenda {
+    font-size: 12px;
+    color: #8E8E93;
+    margin-top: 8px;
+  }

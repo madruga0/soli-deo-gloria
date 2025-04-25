@@ -1,0 +1,9 @@
+{
+	"configurationPath": "configuration.json",
+	"cssPath": "styles.css",
+	"htmlPath": "index.html",
+	"icon": "code",
+	"jsPath": "index.js",
+	"name": "What we do",
+	"type": "component"
+}
