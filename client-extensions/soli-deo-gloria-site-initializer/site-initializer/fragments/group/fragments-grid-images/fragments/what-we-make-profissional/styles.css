@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.fragment-professional main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 178px;
+}
+
+.fragment-professional header {
+    max-width: 567px;
+    max-height: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fragment-professional header h1 {
+    color: #093542;
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+
+    margin-bottom: 32px;
+}
+
+.fragment-professional header p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #8E8E93;
+}
+
+.fragment-professional header .p-one {
+    margin-bottom: 32px;
+}
+
+.fragment-professional section img {
+    max-width: 713px;
+    max-height: 400px;
+}
+
+.fragment-professional section p {
+    text-align: center;
+    color: #8E8E93;
+    margin-top: 12px;
+}

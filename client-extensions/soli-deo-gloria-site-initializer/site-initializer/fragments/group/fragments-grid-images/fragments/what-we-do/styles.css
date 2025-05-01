@@ -1,48 +1,98 @@
-.oque-fazemos {
-    background-color: transparent;
-    padding: 60px 20px;
-    font-family: "Inter", sans-serif;
-  }
-  
-`
-  
-  .oque-fazemos .texto {
-    flex: 1;
-    min-width: 280px;
-  }
-  
-  .oque-fazemos .texto h2 {
-    font-size: 32px;
-    font-weight: 600;
-    color: #093542;
-    line-height: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .oque-fazemos .texto p {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 26px;
-    color: #8E8E93;
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  .oque-fazemos .imagem {
-    flex: 2;
-    min-width: 280px;
-    text-align: center;
-  }
-  
-  .oque-fazemos .imagem img {
-    width: 100%;
-    border: none;
-    /* border-radius: 10px; */
-    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
-  }
-  
-  .oque-fazemos .legenda {
-    font-size: 12px;
-    color: #8E8E93;
-    margin-top: 8px;
-  }
+.what-we-do {
+	font-family: 'Inter', sans-serif;
+	background-color: #f2f2f2;
+	margin-top: 96px;
+	padding: 0;
+}
+
+.what-we-do main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 178px;
+}
+
+.what-we-do header {
+	max-width: 567px;
+	max-height: 302px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.what-we-do header h1 {
+	color: #093542;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: 0;
+	margin-bottom: 32px;
+}
+
+.what-we-do header p {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #8e8e93;
+}
+
+.what-we-do header .p-one {
+	margin-bottom: 32px;
+}
+
+.what-we-do section img {
+	max-width: 713px;
+	max-height: 400px;
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+}
+
+.what-we-do section p {
+	text-align: center;
+	color: #8e8e93;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+	.what-we-do main {
+		gap: 64px;
+	}
+}
+
+@media (max-width: 768px) {
+	.what-we-do main {
+		flex-direction: column;
+		align-items: center;
+		gap: 32px;
+	}
+
+	.what-we-do header {
+		align-items: center;
+		text-align: center;
+		max-width: 100%;
+	}
+
+	.what-we-do header h1 {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.what-we-do header p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.what-we-do section img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.what-we-do section p {
+		font-size: 14px;
+	}
+}

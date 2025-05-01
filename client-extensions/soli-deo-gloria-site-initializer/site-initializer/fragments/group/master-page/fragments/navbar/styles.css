@@ -1,0 +1,140 @@
+* {
+	font-family: 'Inter', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+}
+
+.fragment_1203 {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: #f2f2f2;
+	padding: 0;
+}
+
+.navbar-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 72px;
+	padding: 1rem;
+}
+
+.navbar-logo img {
+	width: 52px;
+	height: auto;
+	margin-left: -15px;
+}
+
+.navbar-menu {
+	list-style: none;
+	display: flex;
+	gap: 36px;
+}
+
+.navbar-item a {
+	text-decoration: none;
+	color: #07364e;
+	font-size: 1rem;
+	font-weight: 600;
+	position: relative;
+	padding: 5px 0;
+}
+
+.dropdown-nav-content a {
+	text-decoration: none;
+	color: #07364e;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+#chevron-down {
+	display: none;
+}
+
+.navbar-menu li:first-child {
+	display: none;
+}
+
+.dropdown-nav {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-nav-content {
+	display: none;
+	width: auto;
+	position: absolute;
+	background-color: #f2f2f2;
+	overflow: auto;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	padding: 5px;
+}
+
+.dropdown-nav-content.show {
+	display: block;
+}
+
+.navbar-item a:hover,
+.dropdown-nav-content a:hover {
+	color: #0c506d;
+}
+
+.cta-container a {
+	display: flex;
+	text-decoration: none;
+}
+
+.button-nav-text {
+	background-color: #07364e;
+	color: #f2f2f2;
+	padding: 14px 28px;
+	border-radius: 50px;
+	font-size: 1rem;
+	font-weight: 700;
+	transition: background-color 0.3s ease;
+}
+
+.button-nav-text:hover {
+	background-color: #0c506d;
+	cursor: pointer;
+}
+
+#menuButton {
+	background: none;
+	border: none;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #07364e;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 910px) {
+	#chevron-down {
+		display: inline;
+	}
+
+	.navbar-menu li:not(:first-child) {
+		display: none;
+	}
+
+	.navbar-menu li:first-child {
+		display: inline-block;
+	}
+
+	.cta-container {
+		display: none;
+		flex-grow: 0;
+		flex-shrink: 0;
+	}
+
+	.navbar-container {
+		width: 100%; /* Ensure the container takes full width */
+		gap: 0; /* Remove gap to prevent unwanted spacing */
+	}
+}
